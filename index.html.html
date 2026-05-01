@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>本地端 AI 專案（LM Studio）</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+.hero p {
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Cards */
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #cbd5f5;
+}
+
+/* List */
+ul {
+    padding-left: 20px;
+}
+
+/* Code Box */
+.code-box {
+    background: #020617;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+/* Image */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #64748b;
+}
+</style>
+
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>本地端 AI 助手專案</h1>
+    <p>使用 LM Studio 與 Gemma 模型打造個人 AI 系統</p>
+    <p>羅永成｜3B3C7003</p>
+</div>
+
+<div class="container">
+
+<!-- SECTION 1 -->
+<div class="card">
+    <h2>一、專題介紹</h2>
+    <p>
+        本專題主要探討本地端大型語言模型（Local LLM）的應用，
+        並透過 LM Studio 搭配 Gemma 模型進行實作。
+    </p>
+
+    <p>
+        與傳統雲端 AI 不同，本地端 AI 能在使用者電腦上直接運行，
+        不僅提升資料隱私，也能在無網路環境下持續使用。
+        本專題透過實際操作，了解本地端 AI 的架設流程與應用潛力。
+    </p>
+</div>
+
+<!-- SECTION 2 -->
+<div class="card">
+    <h2>二、系統架設</h2>
+
+    <p><b>使用工具：</b> LM Studio</p>
+    <p><b>使用模型：</b> Gemma 4</p>
+
+    <div class="code-box">
+        Step 1：安裝 LM Studio<br>
+        Step 2：下載 Gemma 模型<br>
+        Step 3：載入模型<br>
+        Step 4：執行本地推論
+    </div>
+</div>
+
+<!-- SECTION 3 -->
+<div class="card">
+    <h2>三、系統操作畫面</h2>
+    <p>以下為 LM Studio 執行畫面：</p>
+
+    <img src="lmstudio.png" alt="LM Studio Screenshot">
+</div>
+
+<!-- SECTION 4 -->
+<div class="card">
+    <h2>四、AI 使用範例</h2>
+
+    <h3>程式設計輔助</h3>
+    <div class="code-box">
+        Prompt：建立 HTML 登入頁面<br>
+        回應：產生完整結構與樣式
+    </div>
+
+    <h3>文字生成</h3>
+    <div class="code-box">
+        Prompt：解釋 Local LLM<br>
+        回應：提供完整說明
+    </div>
+</div>
+
+<!-- SECTION 5 -->
+<div class="card">
+    <h2>五、心得與結論</h2>
+    <p>
+        本次專題讓我實際體驗本地端 AI 的運作方式。
+        雖然效能略低於雲端服務，但在隱私與成本方面具有優勢。
+    </p>
+
+    <p>
+        未來隨著硬體效能提升，本地端 AI 將在個人應用與開發領域中
+        扮演越來越重要的角色。
+    </p>
+</div>
+
+</div>
+
+<footer>
+    Local AI Project｜LM Studio
+</footer>
+
+</body>
+</html>
